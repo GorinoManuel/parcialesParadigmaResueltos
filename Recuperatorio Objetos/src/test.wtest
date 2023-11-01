@@ -1,0 +1,8 @@
+object pedro {
+	var dinero = 100
+	method comprarFactura() {
+		dinero=-100
+		return dinero
+		}
+}
+

@@ -1,0 +1,12 @@
+import main.*
+describe "ATRAPADAS" {
+	const gema = new Gema(nivelImportancia=100,cantidad=1, cotizacion=1000 )
+	const personaje1 = new Personaje(jugador=jugador1)
+	const personaje2 = new Personaje(jugador=jugador2)
+	const jugador2 = new Jugador(personajes=[personaje2],recursos=[])
+ 	const jugador1 = new Jugador(personajes=[personaje1],recursos=[gema])
+	
+	test "Atrapa" {
+		
+	}
+}
